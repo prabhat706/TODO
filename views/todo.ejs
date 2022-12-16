@@ -1,0 +1,29 @@
+<%-include('header')%>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="container">
+                            <ul>
+                                <% for(var i=0; i<foundlist.length; i++) {%>
+                                    <li>
+
+                                        <%= foundlist[i].title%> :
+                                            <%= foundlist[i].content%>
+                                                <hr>
+                                                <% } %>
+                                    </li>
+                            </ul>
+                        </div>
+                        <form action="/todo" method="post">
+                            <input type="text" name="title" placeholder="Enter your title">
+                            <input type="text" name="content" placeholder="Enter your content">
+                            <button type="submit" name="submit">Go</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%-include('footer')%>

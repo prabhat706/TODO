@@ -1,0 +1,34 @@
+html {
+
+    background-image: -webkit-linear-gradient(65deg, #3d1190 50%,  rgb(15, 14, 14) 50%);
+    min-height: 1000px;
+}
+.navbar{
+
+    background-color: #eb7c50 !important;
+}
+body{
+    background-color: rgb(15, 14, 14) !important;
+    font-family: cursive !important;
+    color: wheat !important;
+}
+hr{
+
+    height: 1px !important;
+    background-color: white !important;
+    border: none !important;
+}
+.card{
+
+    border: 3px solid white !important;
+    border-radius: 8px !important;
+    background-color: rgb(15, 14, 14) !important;
+}
+input{
+
+    background-color: black !important;
+}
+.form-control
+{
+    background-color: black !important;
+}

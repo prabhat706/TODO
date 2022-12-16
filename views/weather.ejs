@@ -1,0 +1,20 @@
+<%-include('header')%>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="Weather">
+                            <form action="/weather" method="post">
+
+                                <label for="CityInput">City Name:</label>
+                                <input id="cityInput" type="text" name="cityName">
+                                <button type="submit">Go</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%-include('footer')%>
